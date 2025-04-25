@@ -147,8 +147,10 @@ header .navbar {
 @media (max-width: 1199.98px) {
   header .navbar {
     background: white !important;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
   }
 }
 header .navbar .cta-btn2 {
