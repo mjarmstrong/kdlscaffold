@@ -342,12 +342,10 @@ header .navbar .cta-btn a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   height: calc(100vh - 117px);
-  min-height: 700px;
 }
 .owl-carousel.home-slider .slider-item .slider-text {
   color: #fff;
   height: calc(100vh - 117px);
-  min-height: 700px;
 }
 .owl-carousel.home-slider .slider-item .slider-text h1 {
   font-size: 3rem;
