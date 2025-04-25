@@ -164,9 +164,9 @@ header .navbar .cta-btn2 {
   }
 }
 header .navbar .nav-link {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;;
-  padding: 1.5rem 1rem !important;
+  padding: 1rem !important;
   outline: none !important;
 }
 @media (max-width: 1199.98px) {
@@ -646,16 +646,16 @@ header .navbar .cta-btn a:hover {
 .site-footer {
   padding: 10em 0 5em 0;
   background: #f2f2f2;
-  font-size: 13px;
+  font-size: 16px;
 }
 .site-footer p:last-child {
   margin-bottom: 0;
 }
 .site-footer a {
-  color: #263d80;
+  color: #fff;
 }
 .site-footer a:hover {
-  color: #263d80;
+  color: #fff;
 }
 .site-footer h3 {
   font-size: 15px;
