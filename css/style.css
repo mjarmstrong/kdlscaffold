@@ -149,8 +149,8 @@ header .navbar {
     background: white !important;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    padding-left: .75rem;
-    padding-right: .75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 }
 header .navbar .cta-btn2 {
@@ -165,7 +165,7 @@ header .navbar .cta-btn2 {
 }
 header .navbar .nav-link {
   font-size: 20px;
-  font-weight: 600;;
+  font-weight: 600;
   padding: 1rem !important;
   outline: none !important;
 }
@@ -261,6 +261,10 @@ header .navbar .cta-btn a:hover {
 }
 
 /* Owl Carousel */
+.owl-carousel {
+  touch-action: pan-y !important;
+}
+
 .owl-carousel .owl-item {
   opacity: 0.4;
 }
