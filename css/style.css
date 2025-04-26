@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  font-family: "Niramit", Arial, sans-serif;
+  font-family: "Source Sans 3", Arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.8;
@@ -23,7 +23,7 @@ h3,
 h4,
 h5 {
   color: #000;
-  font-family: "K2D", sans-serif;
+  font-family: "Merriweather", sans-serif;
 }
 
 .btn {
