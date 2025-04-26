@@ -261,10 +261,6 @@ header .navbar .cta-btn a:hover {
 }
 
 /* Owl Carousel */
-.owl-carousel {
-  touch-action: pan-y !important;
-}
-
 .owl-carousel .owl-item {
   opacity: 0.4;
 }
