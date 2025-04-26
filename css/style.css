@@ -150,7 +150,7 @@ header .navbar {
   padding: 24px 0;
   background: white !important;
 }
-.navbar-collapse {
+.navbar-expand-lg .navbar-collapse {
   margin-top: 1rem;
 }
 @media (max-width: 1199.98px) {
