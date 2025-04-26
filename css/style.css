@@ -465,6 +465,12 @@ header .navbar .cta-btn a:hover {
   padding: 7em 0;
 }
 
+@media (max-width: 1199.98px) {
+  .section {
+    padding: 5em 0;
+  }
+}
+
 .cta-link {
   background: #263d80;
   padding: 3.5em 0 3em 0;
@@ -657,6 +663,11 @@ header .navbar .cta-btn a:hover {
   padding: 10em 0 5em 0;
   background: #f2f2f2;
   font-size: 16px;
+}
+@media (max-width: 991.98px) {
+  .site-footer {
+    padding: 5em 0;
+  }
 }
 .site-footer p:last-child {
   margin-bottom: 0;

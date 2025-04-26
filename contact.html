@@ -103,35 +103,33 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-            <form action="#" method="post">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <label for="fname">First Name</label>
-                  <input type="text" class="form-control form-control-lg" id="fname" />
-                </div>
-                <div class="col-md-6 form-group">
-                  <label for="lname">Last Name</label>
-                  <input type="text" class="form-control form-control-lg" id="lname" />
-                </div>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label for="fname">First Name</label>
+                <input type="text" class="form-control form-control-lg" id="fname" onKeyUp="sendEmail()" required />
               </div>
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <label for="email">Email</label>
-                  <input type="email" id="email" class="form-control form-control-lg" />
-                </div>
+              <div class="col-md-6 form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" class="form-control form-control-lg" id="lname" onKeyUp="sendEmail()" required />
               </div>
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <label for="message">Write Message</label>
-                  <textarea name="message" id="message" class="form-control form-control-lg" cols="30" rows="8"></textarea>
-                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control form-control-lg" onKeyUp="sendEmail()" required />
               </div>
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="submit" value="Send Message" class="btn btn-primary btn-lg btn-block" />
-                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <label for="message">Write Message</label>
+                <textarea name="message" id="message" class="form-control form-control-lg" cols="30" rows="8" onKeyUp="sendEmail()" required></textarea>
               </div>
-            </form>
+            </div>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <a href="" class="btn btn-primary btn-lg btn-block" id="send_message">Send Message</a>
+              </div>
+            </div>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-4">
@@ -174,7 +172,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-4 text-right">
+          <div class="col-md-4 text-md-right">
             <p>
               Copyright &copy;
               <script>
@@ -205,5 +203,17 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      function sendEmail() {
+        var link = document.getElementById("send_message");
+        var name = document.getElementById("fname").value + " " + document.getElementById("lname").value;
+        var clientEmail = document.getElementById("email").value;
+        var subject = "KDL Scaffold Contact Request";
+        var message = "Name: " + name + " -- " + "Email: " + clientEmail + " -- " + "Message: " + document.getElementById("message").value;
+        var email = "info@kdlscaffold.ca";
+        var href = "mailto:" + email + "?subject=" + subject + "&body=" + message;
+        link.setAttribute("href", href);
+      }
+    </script>
   </body>
 </html>
