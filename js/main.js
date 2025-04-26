@@ -23,6 +23,7 @@
     nav: true,
     dots: false,
     autoplayHoverPause: true,
+    smartSpeed: 1000,
     items: 1,
     navText: ["<span class='ion-chevron-left'></span>", "<span class='ion-chevron-right'></span>"],
     responsive: {
