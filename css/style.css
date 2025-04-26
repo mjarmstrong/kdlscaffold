@@ -26,6 +26,12 @@ h5 {
   font-family: "K2D", sans-serif;
 }
 
+.btn {
+  font-weight: 600;;
+  line-height: 1.0;
+  padding: .5rem 1rem .65rem;
+}
+
 .btn,
 .form-control {
   outline: none;
