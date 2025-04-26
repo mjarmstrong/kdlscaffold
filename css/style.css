@@ -27,9 +27,9 @@ h5 {
 }
 
 .btn {
-  font-weight: 600;;
-  line-height: 1.0;
-  padding: .5rem 1rem .65rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.5rem 1rem 0.65rem;
 }
 
 .btn,
@@ -149,6 +149,9 @@ header .top-bar .social li a:hover {
 header .navbar {
   padding: 24px 0;
   background: white !important;
+}
+.navbar-collapse {
+  margin-top: 1rem;
 }
 @media (max-width: 1199.98px) {
   header .navbar {
