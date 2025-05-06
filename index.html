@@ -67,7 +67,7 @@
   <body>
     <a href="#main" class="skip-link">Skip to main content</a>
     <header role="banner">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
         <div class="container">
           <a aria-label="Return to homepage" class="navbar-brand position-absolute" href="https://kdlscaffold.ca" itemprop="url">
             <img itemprop="logo" src="img/kdlscaffold-logo.jpg" alt="KDL Scaffold Services Logo" height="70" />
@@ -77,18 +77,18 @@
           </button>
 
           <div class="collapse navbar-collapse position-relative" id="navbarsExample05">
-            <ul class="navbar-nav ml-auto pl-lg-5 pl-0 d-flex align-items-center">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+            <ul class="navbar-nav ml-auto pl-lg-5 pl-0 d-flex align-items-center" itemscope itemtype="https://schema.org/SiteNavigationElement">
+              <li class="nav-item" role="presentation" itemprop="name">
+                <a class="nav-link active" href="index.html" itemprop="url">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
+              <li class="nav-item" role="presentation" itemprop="name">
+                <a class="nav-link" href="services.html" itemprop="url">Services</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+              <li class="nav-item" role="presentation" itemprop="name">
+                <a class="nav-link" href="about.html" itemprop="url">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+              <li class="nav-item" role="presentation" itemprop="name">
+                <a class="nav-link" href="contact.html" itemprop="url">Contact</a>
               </li>
             </ul>
           </div>
