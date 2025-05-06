@@ -11,6 +11,7 @@ Disallow: /wp-login.php
 Disallow: /login/
 Disallow: /logout/
 Disallow: /search/
-Disallow: /cgi-sys/
+Disallow: /cgi-sys/*
+Disallow: /lander
 
 Sitemap: https://kdlscaffold.ca/sitemap.xml
