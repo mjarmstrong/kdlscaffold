@@ -714,6 +714,7 @@ header .navbar .cta-btn a:hover {
   text-align: center;
 }
 .link-thumbnail img {
+  max-width: 370px;
   position: relative;
   -webkit-transition: 0.8s all ease;
   -o-transition: 0.8s all ease;
