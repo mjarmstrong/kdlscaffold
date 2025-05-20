@@ -25,21 +25,7 @@
     autoplayHoverPause: true,
     smartSpeed: 1000,
     items: 1,
-    navText: ["<span class='ion-chevron-left'></span>", "<span class='ion-chevron-right'></span>"],
-    responsive: {
-      0: {
-        items: 1,
-        nav: false,
-      },
-      1000: {
-        items: 1,
-        nav: false,
-      },
-      2000: {
-        items: 1,
-        nav: true,
-      },
-    },
+    navText: ["<span class='ion-chevron-left'></span>", "<span class='ion-chevron-right'></span>"]
   });
 
   var contentWayPoint = function () {
