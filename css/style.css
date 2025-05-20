@@ -643,7 +643,6 @@ header .navbar .cta-btn a:hover {
 .list-unstyled.check li:before {
   color: #17a2b8;
   left: 0;
-  font-family: "Ionicons";
   content: "\f122";
   position: absolute;
 }
