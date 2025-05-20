@@ -642,12 +642,6 @@ header .navbar .cta-btn a:hover {
   margin-bottom: 10px;
   margin-left: 16px;
 }
-.list-unstyled.check li:before {
-  color: #17a2b8;
-  left: 0;
-  content: "\f122";
-  position: absolute;
-}
 
 #modalAppointment .modal-content {
   border-radius: 0;
