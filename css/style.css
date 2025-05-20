@@ -636,7 +636,7 @@ header .navbar .cta-btn a:hover {
 
 .list-unstyled.check li {
   position: relative;
-  padding-left: 30px;
+  padding-left: 16px;
   line-height: 1.3;
   list-style: circle;
   margin-bottom: 10px;
