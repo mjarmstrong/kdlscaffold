@@ -10,7 +10,7 @@
   <!-- Contact Page -->
   <url>
     <loc>https://kdlscaffold.ca/contact.html</loc>
-    <changefreq>yearly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
@@ -24,7 +24,7 @@
   <!-- About Page -->
   <url>
     <loc>https://kdlscaffold.ca/about.html</loc>
-    <changefreq>yearly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
